@@ -51,4 +51,4 @@ vim.keymap.set('n', '<leader>wv', '<cmd>vsplit<cr>', { desc = 'Vertical Split Fi
 vim.keymap.set('n', '<leader>ws', '<cmd>split<cr>', { desc = 'Horizontal Split File' })
 
 -- Git
-vim.keymap.set('n', '<leader>gp', '<cmd>:!git push<cmd>', { desc = 'Push with cli' })
+vim.keymap.set('n', '<leader>gp', '<cmd>:!git push<cr>', { desc = 'Push with cli' })
