@@ -15,7 +15,13 @@ vim.keymap.set('n', '<leader>ck', '<cmd>:e $HOME/.config/nvim/lua/config/keymaps
 vim.keymap.set('n', '<leader>co', '<cmd>:e $HOME/.config/nvim/lua/config/options.lua<cr>', { desc = 'options' })
 vim.keymap.set('n', '<leader>ct', '<cmd>:e $HOME/.config/nvim/lua/plugins/telescope.lua<cr>', { desc = 'telescope' })
 
-vim.keymap.set('n', '<leader>e', '<cmd>Lexplore<cr>', { desc = 'netrw explorer' })
+vim.keymap.set('n', '<leader>e', '<cmd>Ntree<cr>', { desc = 'netrw explorer' })
+vim.keymap.set('n', '<leader>fp', '<cmd>Ntree $HOME/.config/nvim/lua/plugins<cr>', { desc = 'netrw plugins' })
+
+-- Neogit
+vim.keymap.set('n', '<leader>gn', '<cmd>Neogit<cr>', { desc = 'Neogit' })
+vim.keymap.set('n', '<leader>gc', '<cmd>Neogit commit<cr>', { desc = 'Neogit commit' })
+
 
 -- Move text up and down
 vim.keymap.set('v', '<A-j>', ':m .+1<CR>==', opts)
