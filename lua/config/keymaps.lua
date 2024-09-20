@@ -52,3 +52,6 @@ vim.keymap.set('n', '<leader>ws', '<cmd>split<cr>', { desc = 'Horizontal Split F
 
 -- Git
 vim.keymap.set('n', '<leader>gp', '<cmd>:!git push<cr>', { desc = 'Push with cli' })
+
+-- Split text
+vim.keymap.set({ 'n', }, '<S-s>', '<cmd>TSJSplit<cr>', { noremap = true, silent = true })
