@@ -13,6 +13,7 @@ vim.keymap.set('n', '<leader>wo', '<cmd>only<cr>', { desc = 'Fullscreen window' 
 
 vim.keymap.set('n', '<leader>ck', '<cmd>:e $HOME/.config/nvim/lua/config/keymaps.lua<cr>', { desc = 'keymaps' })
 vim.keymap.set('n', '<leader>co', '<cmd>:e $HOME/.config/nvim/lua/config/options.lua<cr>', { desc = 'options' })
+vim.keymap.set('n', '<leader>ct', '<cmd>:e $HOME/.config/nvim/lua/plugins/telescope.lua<cr>', { desc = 'telescope' })
 
 vim.keymap.set('n', '<leader>e', '<cmd>Lexplore<cr>', { desc = 'netrw explorer' })
 
@@ -27,3 +28,18 @@ vim.keymap.set('x', '<A-k>', ":move '<-2<CR>gv-gv", opts)
 -- Do not copy on x
 vim.keymap.set('n', 'x', '"_x', opts)
 
+-- emacs-motions
+vim.keymap.set('n', '<leader>wh', '<C-w>h', { desc = 'Go to left window' })
+vim.keymap.set('n', '<leader>wj', '<C-w>j', { desc = 'Go to lower window' })
+vim.keymap.set('n', '<leader>wk', '<C-w>k', { desc = 'Go to upper window' })
+vim.keymap.set('n', '<leader>wl', '<C-w>l', { desc = 'Go to right window' })
+
+-- easier-motions 
+vim.keymap.set('n', '<C-h>', '<C-w>h', { desc = 'Go to left window' })
+vim.keymap.set('n', '<C-j>', '<C-w>j', { desc = 'Go to lower window' })
+vim.keymap.set('n', '<C-k>', '<C-w>k', { desc = 'Go to upper window' })
+vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Go to right window' })
+
+-- Splits
+vim.keymap.set('n', '<leader>wv', '<cmd>vsplit<cr>', { desc = 'Vertical Split File' })
+vim.keymap.set('n', '<leader>ws', '<cmd>split<cr>', { desc = 'Horizontal Split File' })

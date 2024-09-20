@@ -8,6 +8,8 @@
   "neogit": { "branch": "master", "commit": "9959b58a897036ce89d47385021db1f716613399" },
   "nvim-dap": { "branch": "master", "commit": "90616ae6ae40053103dc66872886fc26b94c70c8" },
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
+  "startup.nvim": { "branch": "master", "commit": "81222a9956148eebf10363726d8bccf8793aa41f" },
+  "telescope-file-browser.nvim": { "branch": "master", "commit": "dd9de68c08b6d678198a99f5ea13e0384a1f04cf" },
   "telescope-undo.nvim": { "branch": "main", "commit": "51be9ae7c42fc27c0b05505e3a0162e0f05fbb6a" },
   "telescope.nvim": { "branch": "master", "commit": "b5fd7f7ae0ea4537511077ed8ef4a6021cedba2f" },
   "which-key.nvim": { "branch": "main", "commit": "fb070344402cfc662299d9914f5546d840a22126" }
