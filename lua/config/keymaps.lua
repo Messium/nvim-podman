@@ -49,3 +49,6 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Go to right window' })
 -- Splits
 vim.keymap.set('n', '<leader>wv', '<cmd>vsplit<cr>', { desc = 'Vertical Split File' })
 vim.keymap.set('n', '<leader>ws', '<cmd>split<cr>', { desc = 'Horizontal Split File' })
+
+-- Git
+vim.keymap.set('n', '<leader>gp', '<cmd>:!git push<cmd>', { desc = 'Push with cli' })
